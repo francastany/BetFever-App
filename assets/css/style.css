@@ -1,0 +1,236 @@
+/* <==================================== FUENTES/ICONOS ====================================> */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"); /* BOOTSTRAP ICONS */
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600;900&display=swap");
+@font-face {
+  font-family: Microgramma;
+  src: url("../fonts/microgramma-d-medium-extended.otf");
+  font-weight: normal, bold;
+}
+
+@font-face {
+  font-family: Simil-Apotek;
+  src: url("../fonts/Teko-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Simil-Apotek;
+  src: url("../fonts/Teko-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Simil-Apotek;
+  src: url("../fonts/Teko-Light.ttf");
+  font-weight: light;
+}
+
+/* <==================================== GENERAL ====================================> */
+/* 
+#010038,
+#F39422,
+#0A0868
+*/
+
+body {
+  font-family: Simil-Apotek, sans-serif;
+  color: #010038;
+  background-color: #efefef;
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Microgramma, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+section h2 span {
+  color: #f39422;
+}
+
+/* Sacando default css de Fotorama */
+.fotorama__wrap {
+  margin: 0 auto;
+}
+
+/* <==================================== HEADER ====================================> */
+
+#logo {
+  margin: 0;
+  width: 243px;
+  height: 50px;
+  background: url("../img/logoHorizontal.png") left no-repeat;
+  font-size: 0;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  color: #010038;
+  /* font-weight: 400; */
+}
+
+.nav-link:active,
+.nav-link .active {
+  color: #f39422;
+}
+
+.navbar-toggler {
+  height: 32px;
+}
+
+.navbar-toggler i {
+  color: #0a0868;
+  transition: color 200ms;
+}
+
+.navbar-toggler:active i {
+  color: #f39422;
+}
+
+.navbar-toggler:focus {
+  /* box-shadow: 0 0 0 0.1rem; */
+  box-shadow: none;
+}
+
+/* <==================================== HERO ====================================> */
+#hero {
+  background: rgb(1, 0, 56);
+  background: linear-gradient(
+    170deg,
+    rgba(1, 0, 56, 1) 60%,
+    rgba(239, 239, 239, 1) 60.5%
+  );
+}
+
+#hero h2,
+#hero p {
+  text-wrap: balance;
+}
+
+#hero h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+#hero p {
+  color: #efefef;
+}
+
+/* #hero h2 span {
+  font-weight: bold;
+} */
+
+#descargarBtns a img {
+  /* box-shadow: 0 24px 48px #01003875; */
+  filter: drop-shadow(0 12px 12px #01003875);
+}
+
+#heroImg {
+  max-height: 400px;
+}
+
+@media screen and (min-width: 992px) {
+  #hero {
+    min-height: 600px;
+  }
+
+  #heroImg {
+    max-height: none;
+  }
+}
+
+/* <==================================== NOSOTROS ====================================> */
+#nosotros h2 {
+  font-size: 2rem;
+}
+
+#nosotros video {
+  border-radius: 1rem;
+}
+
+/* <==================================== PASTILLAS ====================================> */
+#pastillas .card > div {
+  border: 2px solid #f39422;
+  background-color: #010038;
+  color: #f39422;
+  width: 48px;
+  height: 48px;
+}
+
+#pastillas .card div i {
+  height: 25px;
+}
+
+#pastillas .card div i::before {
+  vertical-align: 0;
+}
+
+#pastillas .card h3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+/* <==================================== GALERIA/FORM ====================================> */
+#galeria {
+  background-color: #010038;
+  color: #efefef;
+}
+
+#preguntas {
+  color: #010038;
+}
+
+#galeria a[data-fancybox="gallery"] img {
+  min-height: 100%;
+}
+
+#enviarEmail {
+  font-family: Microgramma, sans-serif;
+  background-color: #f39422;
+  color: #fff;
+  letter-spacing: 0.15rem;
+}
+
+#form-pregs {
+  color: #efefef;
+
+  background: rgb(1, 0, 56);
+  background: linear-gradient(
+    170deg,
+    rgba(1, 0, 56, 1) 50%,
+    rgba(239, 239, 239, 1) 50.5%
+  );
+}
+
+.form-check label {
+  color: #0a0868;
+}
+
+.accordion-header {
+  text-wrap: balance;
+}
+
+#enviarEmail {
+  border: 1px solid #f39422;
+}
+
+#enviarEmail:hover {
+  background-color: #efefef;
+  color: #f39422;
+}
+
+@media screen and (min-width: 992px) {
+  #preguntas h2 {
+    color: #efefef;
+  }
+
+  #mensaje {
+    height: 100px;
+  }
+}

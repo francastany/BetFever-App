@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <title>Bet Fever App</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- FancyBox -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+    <!-- Fotorama -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- =========================================== HEADER =========================================== -->
+    <header id="header" class="px-0 py-1 bg-white">
+      <!-- <h1 id="logo">Bet Fever</h1> -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container px-4">
+          <h1 id="logo">Bet Fever</h1>
+          <button
+            class="navbar-toggler border-0 p-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list" style="font-size: 2rem"></i>
+          </button>
+          <nav
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav py-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Inicio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aplicacion">Aplicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#preguntas">Preguntas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- =========================================== HERO =========================================== -->
+      <section id="hero" class="d-flex align-items-center">
+        <div class="container px-4">
+          <div class="row align-items-center">
+            <div
+              class="col-lg-6 justify-content-center pt-5 pt-lg-0 order-1 text-center text-md-start"
+            >
+              <h2 class="mb-4">
+                Ganá en grande con <span class="fw-bold">Bet Fever</span>
+              </h2>
+              <p class="fs-3 lh-4 mb-4">
+                Experimenta la emoción pura de la victoria con nuestra
+                plataforma de última generación
+              </p>
+              <div
+                id="descargarBtns"
+                class="d-flex flex-column flex-md-row gap-2"
+              >
+                <a
+                  href="https://play.google.com/store/games?device=windows&hl=es"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/img/googlePlay.png"
+                    alt="Descarga la app por Google Play"
+                  />
+                  <!-- <i class="bi bi-google-play"></i>
+                    Google Play -->
+                </a>
+                <a href="https://www.apple.com/la/app-store/" target="_blank">
+                  <img
+                    src="assets/img/appleStore.png"
+                    alt="Descarga la app por Apple Store"
+                  />
+                  <!-- <i class="bi bi-apple"></i>
+                    App Store -->
+                </a>
+              </div>
+            </div>
+            <div
+              id="heroImg"
+              class="mt-5 my-lg-3 col-lg-6 align-items-stretch align-items-lg-start order-1 text-center overflow-hidden"
+            >
+              <!-- FUTURO CARRUSEL/SLIDER -->
+              <div
+                class="fotorama text-center"
+                data-transition="crossfade"
+                data-autoplay="2500"
+                data-loop="true"
+                data-arrows="false"
+                data-click="true"
+                data-swipe="false"
+                data-nav="false"
+              >
+                <img
+                  src="assets/img/pages/carrusel01.png"
+                  alt="Pantalla de carga de Bet Fever"
+                  class="img-fluid"
+                />
+                <img
+                  src="assets/img/pages/carrusel02.png"
+                  alt="Pantalla de Inicio de Bet Fever"
+                  class="img-fluid"
+                />
+                <img
+                  src="assets/img/pages/carrusel03.png"
+                  alt="Pantalla de Inicio de Bet Fever"
+                  class="img-fluid"
+                />
+                <img
+                  src="assets/img/pages/carrusel04.png"
+                  alt="Pantalla de Inicio de Bet Fever"
+                  class="img-fluid"
+                />
+                <img
+                  src="assets/img/pages/carrusel05.png"
+                  alt="Pantalla de Inicio de Bet Fever"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================== CARACTERISTICAS =========================================== -->
+      <section id="nosotros" class="my-4">
+        <div class="container p-4">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 mb-5 mb-md-0">
+              <h2 class="text text-center text-md-start mb-4">
+                ¿De qué se trata <span>Bet Fever</span>?
+              </h2>
+              <p class="fw-light fs-5 lh-3">
+                Bet Fever es una aplicación de apuestas deportivas en línea que
+                se enfoca en brindar una experiencia emocionante y segura para
+                los amantes del deporte. La empresa combina emoción y
+                confiabilidad, prometiendo integridad, innovación tecnológica y
+                ética de juego responsable para diferenciarse de la competencia.
+                Buscan establecer una relación cercana con los usuarios y crear
+                una plataforma socialmente responsable y apasionante para los
+                entusiastas del deporte.
+              </p>
+            </div>
+            <div class="col-12 col-md-6">
+              <video
+                src="assets/img/betFever-video.mp4"
+                class="w-100 shadow-lg"
+                controls
+                muted
+              ></video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================== CARACTERISTICAS =========================================== -->
+      <section id="aplicacion" class="my-4">
+        <div class="container p-4">
+          <div class="row mb-4">
+            <h2 class="text-center mb-4">
+              Apuesta con confianza, juega con ventaja
+            </h2>
+            <p class="fw-light fs-4 lh-3 text-center">
+              Explora las características destacadas de nuestra app de apuestas
+              deportivas para una experiencia única y estratégica.
+            </p>
+          </div>
+          <div class="row" id="pastillas">
+            <article
+              class="card col-12 col-sm-6 col-lg-4 border-0 px-4 text-center bg-transparent align-items-stretch mt-2"
+            >
+              <div
+                class="rounded-circle mx-auto d-flex align-items-center justify-content-center my-2"
+              >
+                <i class="bi bi-clock fs-3"></i>
+                <!-- <img src="" alt="" class="rounded-circle" /> -->
+              </div>
+              <h3 class="mb-2">Apuestas en vivo</h3>
+              <p class="m-0">
+                Observa eventos deportivos mientras apuestas y mantente alerta
+                para sentir la adrenalina de ganar al instante. Estadísticas
+                avanzadas
+              </p>
+            </article>
+            <article
+              class="card col-12 col-sm-6 col-lg-4 border-0 px-4 text-center bg-transparent align-items-stretch mt-2"
+            >
+              <div
+                class="rounded-circle mx-auto d-flex align-items-center justify-content-center my-2"
+              >
+                <i class="bi bi-graph-up-arrow fs-3"></i>
+                <!-- <img src="" alt="" class="rounded-circle" /> -->
+              </div>
+              <h3 class="mb-2">Estadísticas avanzadas</h3>
+              <p class="m-0">
+                Toma decisiones informadas con estadísticas detalladas sobre
+                equipos, jugadores y tendencias para aumentar tus posibilidades
+                de éxito.
+              </p>
+            </article>
+            <article
+              class="card col-12 col-sm-6 col-lg-4 border-0 px-4 text-center bg-transparent align-items-stretch mt-2"
+            >
+              <div
+                class="rounded-circle mx-auto d-flex align-items-center justify-content-center my-2"
+              >
+                <i class="bi bi-cash-stack fs-3"></i>
+                <!-- <img src="" alt="" class="rounded-circle" /> -->
+              </div>
+              <h3 class="mb-2">Rápido Retiro de Ganancias</h3>
+              <p class="m-0">
+                Obtén tus ganancias de forma rápida y sencilla. Garantizamos
+                retiros eficientes para que disfrutes tus ganancias sin demoras.
+              </p>
+            </article>
+            <article
+              class="card col-12 col-sm-6 col-lg-4 border-0 px-4 text-center bg-transparent align-items-stretch mt-2"
+            >
+              <div
+                class="rounded-circle mx-auto d-flex align-items-center justify-content-center my-2"
+              >
+                <i class="bi bi-dice-6 fs-3"></i>
+                <!-- <img src="" alt="" class="rounded-circle" /> -->
+              </div>
+              <h3 class="mb-2">Variedad de deportes</h3>
+              <p class="m-0">
+                Explora con nuestra variedad de deportes. Desde fútbol hasta
+                deportes menos convencionales, tenemos algo para cada
+                aficionado.
+              </p>
+            </article>
+            <article
+              class="card col-12 col-sm-6 col-lg-4 border-0 px-4 text-center bg-transparent align-items-stretch mt-2"
+            >
+              <div
+                class="rounded-circle mx-auto d-flex align-items-center justify-content-center my-2"
+              >
+                <i class="bi bi-shield-lock fs-3"></i>
+                <!-- <img src="" alt="" class="rounded-circle" /> -->
+              </div>
+              <h3 class="mb-2">Seguridad y Privacidad</h3>
+              <p class="m-0">
+                Tu seguridad es nuestra prioridad. Implementamos medidas
+                robustas para proteger tus datos y garantizar transacciones
+                seguras.
+              </p>
+            </article>
+            <article
+              class="card col-12 col-sm-6 col-lg-4 border-0 px-4 text-center bg-transparent align-items-stretch mt-2"
+            >
+              <div
+                class="rounded-circle mx-auto d-flex align-items-center justify-content-center my-2"
+              >
+                <i class="bi bi-star fs-3"></i>
+                <!-- <img src="" alt="" class="rounded-circle" /> -->
+              </div>
+              <h3 class="mb-2">Bonificaciones Exclusivas</h3>
+              <p class="m-0">
+                Aumenta tus posibilidades de ganar con nuestras bonificaciones
+                exclusivas. Desde bonos de bienvenida hasta promociones
+                regulares.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================== GALERIA =========================================== -->
+      <section id="galeria" class="overflow-hidden">
+        <div class="container p-4">
+          <div class="row">
+            <h2 class="text text-center my-3">
+              Explora todas las formas de <span>ganar</span> con nuestra amplia
+              variedad de <span>deportes</span>
+            </h2>
+          </div>
+          <div class="row" id="gallery">
+            <a
+              data-fancybox="gallery"
+              data-srcset="assets/img/desktop/galeria_futbol.jpg 1300w, assets/img/tablet/galeria_futbol-tablet.jpg 768w, assets/img/mobile/galeria_futbol-mobile.jpg 500w"
+              href="assets/img/desktop/galeria_futbol.jpg"
+              class="col-12 col-sm-6 col-lg-3 py-2"
+            >
+              <img
+                src="assets/img/mobile/galeria_futbol-mobile.jpg"
+                alt="Futbol"
+                class="w-100 object-fit-cover rounded"
+              />
+            </a>
+            <a
+              data-fancybox="gallery"
+              data-srcset="assets/img/desktop/galeria_basquet.jpg 1300w, assets/img/tablet/galeria_basquet-tablet.jpg 768w, assets/img/mobile/galeria_basquet-mobile.jpg 500w"
+              href="assets/img/desktop/galeria_basquet.jpg"
+              class="col-12 col-sm-6 col-lg-3 py-2"
+            >
+              <img
+                src="assets/img/mobile/galeria_basquet-mobile.jpg"
+                alt="Futbol"
+                class="w-100 object-fit-cover rounded"
+              />
+            </a>
+            <a
+              data-fancybox="gallery"
+              data-srcset="assets/img/desktop/galeria_box.jpg 1300w, assets/img/tablet/galeria_box-tablet.jpg 768w, assets/img/mobile/galeria_box-mobile.jpg 500w"
+              href="assets/img/desktop/galeria_box.jpg"
+              class="col-12 col-sm-6 col-lg-3 py-2"
+            >
+              <img
+                src="assets/img/mobile/galeria_box-mobile.jpg"
+                alt="Futbol"
+                class="w-100 object-fit-cover rounded"
+              />
+            </a>
+            <a
+              data-fancybox="gallery"
+              data-srcset="assets/img/desktop/galeria_f1.jpg 1300w, assets/img/tablet/galeria_f1-tablet.jpg 768w, assets/img/mobile/galeria_f1-mobile.jpg 500w"
+              href="assets/img/desktop/galeria_f1.jpg"
+              class="col-12 col-sm-6 col-lg-3 py-2"
+            >
+              <img
+                src="assets/img/mobile/galeria_f1-mobile.jpg"
+                alt="Futbol"
+                class="w-100 object-fit-cover rounded"
+              />
+            </a>
+            <a
+              data-fancybox="gallery"
+              data-srcset="assets/img/desktop/galeria_golf.jpg 1300w, assets/img/tablet/galeria_golf-tablet.jpg 768w, assets/img/mobile/galeria_golf-mobile.jpg 500w"
+              href="assets/img/desktop/galeria_golf.jpg"
+              class="col-12 col-sm-6 col-lg-3 py-2"
+            >
+              <img
+                src="assets/img/mobile/galeria_golf-mobile.jpg"
+                alt="Futbol"
+                class="w-100 object-fit-cover rounded"
+              />
+            </a>
+            <a
+              data-fancybox="gallery"
+              data-srcset="assets/img/desktop/galeria_nfl.jpg 1300w, assets/img/tablet/galeria_nfl-tablet.jpg 768w, assets/img/mobile/galeria_nfl-mobile.jpg 500w"
+              href="assets/img/desktop/galeria_nfl.jpg"
+              class="col-12 col-sm-6 col-lg-3 py-2"
+            >
+              <img
+                src="assets/img/mobile/galeria_nfl-mobile.jpg"
+                alt="Futbol"
+                class="w-100 object-fit-cover rounded"
+              />
+            </a>
+            <a
+              data-fancybox="gallery"
+              data-srcset="assets/img/desktop/galeria_rugby.jpg 1300w, assets/img/tablet/galeria_rugby-tablet.jpg 768w, assets/img/mobile/galeria_rugby-mobile.jpg 500w"
+              href="assets/img/desktop/galeria_rugby.jpg"
+              class="col-12 col-sm-6 col-lg-3 py-2"
+            >
+              <img
+                src="assets/img/mobile/galeria_rugby-mobile.jpg"
+                alt="Futbol"
+                class="w-100 object-fit-cover rounded"
+              />
+            </a>
+            <a
+              data-fancybox="gallery"
+              data-srcset="assets/img/desktop/galeria_volley.jpg 1300w, assets/img/tablet/galeria_volley-tablet.jpg 768w, assets/img/mobile/galeria_volley-mobile.jpg 500w"
+              href="assets/img/desktop/galeria_volley.jpg"
+              class="col-12 col-sm-6 col-lg-3 py-2"
+            >
+              <img
+                src="assets/img/mobile/galeria_volley-mobile.jpg"
+                alt="Futbol"
+                class="w-100 object-fit-cover rounded"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================== FORMULARIO Y PREGUNTAS =========================================== -->
+      <section id="form-pregs" class="">
+        <div class="container p-4">
+          <div class="row align-items-lg-center">
+            <div class="col-12 col-lg-6" id="contacto">
+              <h2 class="text text-center text-md-start my-3">
+                Ponte en contacto con nosotros
+              </h2>
+              <p class="fw-light fs-4 lh-3 text-center text-md-start">
+                Tu comentario nos ayuda a mejorar día a día nuestra plataforma.
+              </p>
+              <form
+                class="mt-3 row pe-lg-2"
+                action="https://formsubmit.co/franco.castany@davinci.edu.ar"
+                method="POST"
+              >
+                <div class="mb-3 col-12 col-sm-6">
+                  <label for="nombre" class="form-label fs-4 mb-1"
+                    >Nombre</label
+                  >
+                  <input
+                    id="nombre"
+                    name="nombre"
+                    type="text"
+                    class="form-control fs-5"
+                    placeholder="Escribe tu Nombre"
+                    aria-label="Nombre"
+                  />
+                </div>
+                <div class="mb-3 col-12 col-sm-6">
+                  <label for="apellido" class="form-label fs-4 mb-1">
+                    Apellido
+                  </label>
+                  <input
+                    id="apellido"
+                    name="apellido"
+                    type="text"
+                    class="form-control fs-5"
+                    placeholder="Escribe tu Apellido"
+                    aria-label="Apellido"
+                  />
+                </div>
+                <div class="mb-3 col-12">
+                  <label for="email" class="form-label fs-4 mb-1">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    class="form-control fs-5"
+                    placeholder="Escribe tu Email"
+                    aria-label="Email"
+                  />
+                </div>
+                <div class="mb-3 col-12">
+                  <label for="mensaje" class="form-label fs-4 mb-1"
+                    >Mensaje</label
+                  >
+                  <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    placeholder="Escribe tu Mensaje"
+                    class="form-control fs-5"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+                <div class="mb-3 col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck"
+                    />
+                    <label class="form-check-label" for="gridCheck">
+                      Acepta nuestra amigable política de privacidad
+                    </label>
+                  </div>
+                </div>
+                <div class="mb-3 col-12">
+                  <input
+                    type="submit"
+                    id="enviarEmail"
+                    value="Enviar"
+                    class="w-100 btn p-2 fw-bold"
+                  />
+                </div>
+
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Contacto desde la Web!"
+                />
+              </form>
+            </div>
+
+            <div class="col-12 col-lg-6 p-4 p-lg-0 ps-lg-1" id="preguntas">
+              <div class="row">
+                <h2 class="text-center text-md-start my-3">
+                  Explora nuestras preguntas más frecuentes
+                </h2>
+              </div>
+              <div class="accordion" id="preguntasFrecuentes">
+                <article class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#pregunta1"
+                      aria-expanded="true"
+                      aria-controls="pregunta1"
+                    >
+                      ¿Cómo puedo realizar una apuesta en Bet Fever?
+                    </button>
+                  </h3>
+                  <div
+                    id="pregunta1"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#preguntasFrecuentes"
+                  >
+                    <div class="accordion-body">
+                      Ingresa, selecciona el evento, elige tu apuesta y confirma
+                      el monto para disfrutar de la emoción de apostar con
+                      facilidad y rapidez.
+                    </div>
+                  </div>
+                </article>
+                <article class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#pregunta2"
+                      aria-expanded="false"
+                      aria-controls="pregunta2"
+                    >
+                      ¿Cómo sé si mi apuesta fue exitosa?
+                    </button>
+                  </h3>
+                  <div
+                    id="pregunta2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#preguntasFrecuentes"
+                  >
+                    <div class="accordion-body">
+                      Después de realizar tu apuesta, verifica el estado en
+                      tiempo real en la sección "Mis Apuestas" para conocer el
+                      resultado una vez que finalice el evento.
+                    </div>
+                  </div>
+                </article>
+                <article class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#pregunta3"
+                      aria-expanded="false"
+                      aria-controls="pregunta3"
+                    >
+                      ¿Bet Fever ofrece bonificaciones o promociones?
+                    </button>
+                  </h3>
+                  <div
+                    id="pregunta3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#preguntasFrecuentes"
+                  >
+                    <div class="accordion-body">
+                      ¡Sí! Descubre emocionantes bonificaciones y promociones en
+                      la sección "Promociones" de Bet Fever para maximizar tu
+                      experiencia de apuestas.
+                    </div>
+                  </div>
+                </article>
+                <article class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#pregunta4"
+                      aria-expanded="false"
+                      aria-controls="pregunta4"
+                    >
+                      ¿Cómo puedo depositar fondos en mi cuenta de Bet Fever?
+                    </button>
+                  </h3>
+                  <div
+                    id="pregunta4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#preguntasFrecuentes"
+                  >
+                    <div class="accordion-body">
+                      Depositar fondos es sencillo. Accede a "Billetera", elige
+                      la opción de depósito, selecciona tu método preferido y
+                      sigue las instrucciones para completar la transacción de
+                      manera segura.
+                    </div>
+                  </div>
+                </article>
+                <article class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#pregunta5"
+                      aria-expanded="false"
+                      aria-controls="pregunta5"
+                    >
+                      ¿Cómo retiro mis ganancias de la aplicación?
+                    </button>
+                  </h3>
+                  <div
+                    id="pregunta5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#preguntasFrecuentes"
+                  >
+                    <div class="accordion-body">
+                      Retirar ganancias es fácil. Visita "Retiros" en "Mi
+                      Cuenta", elige el método y sigue las instrucciones para
+                      disfrutar de tus ganancias de manera rápida y segura.
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================== FOOTER =========================================== -->
+
+    <footer class="container p-4 pb-0 mt-4">
+      <div class="row align-items-top">
+        <section class="col-12 col-md-6 text-center">
+          <h2 class="m-0">
+            <a href="#">
+              <img
+                src="assets/img/logoHorizontal.png"
+                alt="La mejor aplicación de apuestas"
+              />
+            </a>
+          </h2>
+
+          <nav class="navbar">
+            <ul class="navbar-nav mx-auto d-flex flex-column flex-md-row">
+              <li class="nav-item px-1">
+                <a class="nav-link" href="#aplicacion">Aplicación</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="#preguntasFrecuentes">Preguntas</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <section class="col-12 col-md-6 text-center">
+          <h2 class="mb-3 mb-lg-2 pt-2">Descarga la App</h2>
+          <div class="row justify-content-center">
+            <a
+              class="col-8 col-md-6 col-lg-4"
+              href="https://play.google.com/store/"
+            >
+              <img
+                class="w-100"
+                src="assets/img/googlePlay.png"
+                alt="Bet Fever para Android"
+              />
+            </a>
+            <a
+              class="col-8 col-md-6 col-lg-4"
+              href="https://www.apple.com/la/app-store/"
+            >
+              <img
+                class="w-100"
+                src="assets/img/appleStore.png"
+                alt="Bet Fever para Apple"
+              />
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <p class="text-center mt-3">© 2023 Bet Fever. Derechos Reservados.</p>
+    </footer>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+      const btns = document.querySelectorAll(".nav-item")
+      const barra = document.querySelector(".navbar-collapse")
+      const cierre = new bootstrap.Collapse(barra, {
+        toggle: false,
+      })
+      btns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          if (barra.classList.contains("show")) {
+            cierre.toggle()
+          }
+        })
+      })
+    </script>
+  </body>
+</html>
